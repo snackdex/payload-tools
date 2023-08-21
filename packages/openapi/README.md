@@ -43,7 +43,7 @@ npm install payload-openapi
 `payload-openapi` creates openAPI documents, version 3.0, as javascript object. If you need a yaml file, please use a library like `yaml` to convert it.
 
 ```typescript
-import { createDocument } from 'payload-swagger';
+import { createDocument } from 'payload-openapi';
 import payloadConfig from '...';
 
 const openapiDocument = createDocument(payloadConfig, {
